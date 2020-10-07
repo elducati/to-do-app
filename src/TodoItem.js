@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDom from "react-dom";
-
-function ToDoItem(props) {
+const ToDoItem = (props) => {
     return (
         <div className="todo-item">
             <input type="checkbox" checked={props.item.completed}/>
